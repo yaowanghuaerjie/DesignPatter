@@ -1,0 +1,18 @@
+## 定义：
+* Define a family of algorithms,encapsulate[简述，概括] each one,
+and make them interchangeable[可交换的]. Strategy lets the algorithm vary 
+independently from clients that use it.
+
+1. 策略的定义
+
+        策略类的定义比较简单，包含一个策略接口和一组实现这个接口得策略类。因为所有的策略类都实现相同的接口，所以客户端代码基于接口而非实现变成
+2. 策略的创建
+
+        因为策略模式会包含一组策略，在使用他们得时候一般会通过类型（type）来判断穿件哪个策略。
+        * 针对无状态的,纯粹算法实现的，可以把type创建策略的逻辑抽离出来，放到工厂类中，事先创建好每个对象，缓存到工厂类中。
+        * 针对有状态的，需要根据状态重新创建
+ 
+3. 策略的使用
+
+        客户端
+ 
