@@ -1,4 +1,4 @@
-package com.george.design.strategy;
+package com.george.design.strategy.temp;
 
 import java.util.HashMap;
 import java.util.Map;
