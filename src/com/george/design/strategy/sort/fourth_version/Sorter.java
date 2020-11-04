@@ -3,6 +3,7 @@ package com.george.design.strategy.sort.fourth_version;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * version2较version1，将排序算法设置为独立的类，进行代码解耦
@@ -30,7 +31,7 @@ public class Sorter {
                 break;
             }
         }
-        iSortAlg.sort(filePath);
+        Objects.requireNonNull(iSortAlg).sort(filePath);
     }
 
     private static class AlgRange {
