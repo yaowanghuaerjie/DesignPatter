@@ -1,4 +1,4 @@
-package com.george.design.observerpatter;
+package com.george.design.observerpatter.eventbus;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
