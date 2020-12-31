@@ -1,4 +1,4 @@
-package com.george.design.facade.kfc_order;
+package com.george.design.facadepattern.kfc_order;
 
 public class EmployeeOne implements IWork{
     @Override
